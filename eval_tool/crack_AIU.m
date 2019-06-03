@@ -1,6 +1,6 @@
 
-resultsPath='/media/fan/dv2/backup/fan_part3/home/fy/fan/hed/data/crack/testresults/tmp/hed_fuse_fpn_ada_python_v1_iter_12000';
-gruImgPath='/media/fan/dv2/backup/fan_part3/home/fy/fan/hed/data/crack/testcrop';
+resultsPath='/data/crack/testresults/tmp/hed_fuse_fpn_ada_python_v1_iter_12000';
+gruImgPath='/data/crack/testcrop';
 get_pIUPR(resultsPath,gruImgPath);
 get_AIU(resultsPath);
 function get_pIUPR(resultsPath,gruImgPath)
