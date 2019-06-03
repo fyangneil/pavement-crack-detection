@@ -1,6 +1,6 @@
 clear; clc;
-path_to_input='/media/fan/dv2/backup/fan_part3/home/fy/fan/hed/data/crack/testresults/tmp/hed_fuse_fpn_ada_python_v1_iter_12000';
-path_to_output='/media/fan/dv2/backup/fan_part3/home/fy/fan/hed/data/crack/testresults/tmp/nms';
+path_to_input='/data/crack/testresults/hed_fuse_fpn_ada_python_v1_iter_12000';
+path_to_output='/data/crack/testresults/nms';
 mkdir(path_to_output);
 iids = dir(fullfile(path_to_input, '*.mat'));
 for i = 1:length(iids)
