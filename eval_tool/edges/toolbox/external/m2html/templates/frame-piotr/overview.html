@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+  <title>Piotr's Computer Vision Matlab Toolbox</title>
+  <meta name="keywords" content="computer vision, images, video, features, image processing, toolbox" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="robots" content="index, follow" />
+  <link type="text/css" rel="stylesheet" href="./m2html.css" />
+</head>
+<body><a name=_top></a>
+
+<h1>Overview</h1>
+<h2>DESCRIPTION<a href="#_top"><img alt=^ src="up.png" border=0 /></a></h2>
+<div class=box><p><strong>
+ This toolbox is meant to facilitate the manipulation of images and
+ video in Matlab. Its purpose is to complement, not replace, Matlab's Image
+ Processing Toolbox, and in fact it requires that the Matlab Image Toolbox
+ be installed. Emphasis has been placed on code efficiency and
+ code reuse.  Thanks to everyone who has given me feedback -
+ you've helped make this toolbox more useful and easier to use.
+</strong></p></div>
+
+<h2>CONTENTS<a href="#_top"><img alt=^ src="up.png" border=0 /></a></h2>
+<div class=box>
+ <strong>The toolbox is divided into 7 parts, arranged by directory:</strong>
+  <ul style="LIST-STYLE-IMAGE: url(./matlabicon.gif)">
+   <li><a href="channels/Contents.html">channels</a> Robust image features, including HOG, for fast object detection.</li>
+   <li><a href="classify/Contents.html">classify</a> Fast clustering, random ferns, RBF functions, PCA, etc.</li>
+   <li><a href="detector/Contents.html">detector</a> Aggregate Channel Features (ACF) object detection code.</li>
+   <li><a href="filters/Contents.html">filters</a> Routines for filtering images.</li>
+   <li><a href="images/Contents.html">images</a> Routines for manipulating and displaying images.</li>
+   <li><a href="matlab/Contents.html">matlab</a> General Matlab functions that should have been a part of Matlab.</li>
+   <li><a href="videos/Contents.html">videos</a> Routines for annotating and displaying videos.</li>
+  </ul>
+</div>
+
+<h2>DOWNLOAD<a href="#_top"><img alt=^ src="up.png" border=0 /></a></h2>
+<div class="box">
+ <p><strong>For version history click <a href="history.txt">here.</a>
+ This code is licensed under the <a href="http://en.wikipedia.org/wiki/BSD_licenses" target="blank">Simplified BSD License.</a></strong></p>
+ <ul>
+  <li><b>Recommended</b>: download the latest version from <a href="https://github.com/pdollar/toolbox" target="blank">GitHub</a></li>
+  <li><a href="archive/piotr_toolbox.zip">Version 3.50</a> &nbsp; May 12, 2016 </li>
+  <li><a href="archive/piotr_toolbox_V3.00.zip">Version 3.00</a> &nbsp; Aug. 06, 2012</li>
+  <li><a href="archive/piotr_toolbox_V2.00.zip">Version 2.00</a> &nbsp; Sep. 30, 2007</li>
+  <li><a href="archive/piotr_toolbox_V1.03.zip">Version 1.03</a> &nbsp; May. 03, 2006 &nbsp; [compatible with cuboids code]</li>
+  <li><a href="archive/piotr_toolbox_V1.00.zip">Version 1.00</a> &nbsp; Oct. 02, 2005</li>
+ </ul>
+  <p>Requires Matlab 2011b or later and Matlab's Image Processing Toolbox.</p>
+</div>
+
+<h2>INSTALL<a href="#_top"><img alt=^ src="up.png" border=0 /></a></h2>
+<div class=box>
+ <p><strong>Simply unzip, then add all directories to the Matlab path:</strong>
+ <br/>&nbsp; &gt;&gt; addpath(genpath('path/to/toolbox/')); savepath;</p>
+ <p>If needed, run the compile script for the mex files:
+   <br/>&nbsp; &gt;&gt; toolboxCompile;
+  <br/>Note: 64 bit Windows/Linux/Mac binaries are already included.
+ </p>
+</div>
+
+<h2>CITE<a href="#_top"><img alt=^ src="up.png" border=0 /></a></h2>
+<div class=box>
+<p><strong>If you use use this code in a publication, I would be grateful if you cite: </strong></p>
+@misc{PMT,
+<br/>&nbsp;&nbsp; author = {Piotr Doll\'ar},
+<br/>&nbsp;&nbsp; title = {{P}iotr's {C}omputer {V}ision {M}atlab {T}oolbox ({PMT})},
+<br/>&nbsp;&nbsp; howpublished = {\url{https://github.com/pdollar/toolbox}}
+<br/>}
+<br/><br/>Use of <a href="channels/Contents.html">channels</a> and <a href="detector/Contents.html">detector</a> packages requires separate citations.
+</div>
+
+<!-- Start of Google Analytics Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4884268-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- end of Google Analytics Code -->
+
+</body>
+</html>
