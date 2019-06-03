@@ -43,6 +43,8 @@ cd $ROOT_DIR/pavement-crack-detection/examples/fphb
 python test.py
 ```
 When testing on one image, you are referred to "pavement-crack-detection/examples/fphb/FPHB-tutorial.ipynb" file.
+# Evaluate result
+We provide the evaluation tool "eval_tool" to assess the result. Before using the tool, please make sure that in predicted crack map the bright regions are crack, background is black. To get ODS and OIS, run 'crack_nms.m' first then 'crack_eval.m'. To get AIU, run 'crack_AIU.m'.
 
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
