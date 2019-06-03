@@ -1,5 +1,5 @@
 
-resultsPath='/data/crack/testresults/tmp/hed_fuse_fpn_ada_python_v1_iter_12000';
+resultsPath='/data/crack/testresults/hed_fuse_fpn_ada_python_v1_iter_12000';
 gruImgPath='/data/crack/testcrop';
 get_pIUPR(resultsPath,gruImgPath);
 get_AIU(resultsPath);
