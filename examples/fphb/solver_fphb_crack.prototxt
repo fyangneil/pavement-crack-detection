@@ -1,4 +1,4 @@
-net: "train_fpn_crack.prototxt"
+net: "train_fphb_crack.prototxt"
 #test_iter: 0
 #test_interval: 1000000
 # lr for fine-tuning should be lower than when starting from scratch
