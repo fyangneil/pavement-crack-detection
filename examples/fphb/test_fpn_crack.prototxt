@@ -1,4 +1,4 @@
-name: "FCN"
+name: "fpn"
 
 input: "data"
 input_dim: 1
