@@ -1,4 +1,4 @@
-name: "FCN"
+name: "fphb"
 
 input: "data"
 input_dim: 1
