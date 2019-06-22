@@ -1,4 +1,4 @@
-name: "HED"
+name: "fphb"
 layer {
   name: "data"
   type: "ImageLabelmapData"
