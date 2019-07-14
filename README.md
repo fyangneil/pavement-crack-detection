@@ -63,8 +63,9 @@ CRACK500:
 >@article{yang2019feature,
   title={Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection},
   author={Yang, Fan and Zhang, Lei and Yu, Sijia and Prokhorov, Danil and Mei, Xue and Ling, Haibin},
-  journal={arXiv preprint arXiv:1901.06340},
-  year={2019}
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2019},
+  publisher={IEEE}
 }
 
 GAPs384: 
