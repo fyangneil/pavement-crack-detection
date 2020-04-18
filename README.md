@@ -49,7 +49,7 @@ We provide the evaluation tool "eval_tool" to assess the result. Before using th
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
 # Note: please cite the corresponding papers when using these datasets.
-
+If you like this project, feel free to leave a star. (^^)
 CRACK500:
 >@inproceedings{zhang2016road,
   title={Road crack detection using deep convolutional neural network},
