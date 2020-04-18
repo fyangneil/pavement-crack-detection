@@ -46,7 +46,7 @@ When testing on one image, you are referred to "pavement-crack-detection/example
 # Evaluate result
 We provide the evaluation tool "eval_tool" to assess the result. Before using the tool, please make sure that in predicted crack map the bright regions are crack, background is black. To get ODS and OIS, run 'crack_nms.m' first then 'crack_eval.m'. To get AIU, run 'crack_AIU.m'.
 
-# If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu. If you like this project, feel free to leave a star. (^^)
+**If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu. If you like this project, feel free to leave a star. (^^)**
 
 # Note: please cite the corresponding papers when using these datasets.
 CRACK500:
