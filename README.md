@@ -78,6 +78,7 @@ GAPs384:
   pages={2039--2047},
   year={2017}
 }
+
 >@article{yang2019feature,
   title={Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection},
   author={Yang, Fan and Zhang, Lei and Yu, Sijia and Prokhorov, Danil and Mei, Xue and Ling, Haibin},
