@@ -69,6 +69,13 @@ CRACK500:
 }
 
 GAPs384: 
+>@article{yang2019feature,
+  title={Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection},
+  author={Yang, Fan and Zhang, Lei and Yu, Sijia and Prokhorov, Danil and Mei, Xue and Ling, Haibin},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2019},
+  publisher={IEEE}
+}
 >@inproceedings{eisenbach2017how,
   title={How to Get Pavement Distress Detection Ready for Deep Learning? A Systematic Approach.},
   author={Eisenbach, Markus and Stricker, Ronny and Seichter, Daniel and Amende, Karl and Debes, Klaus
@@ -77,14 +84,6 @@ GAPs384:
   booktitle={International Joint Conference on Neural Networks (IJCNN)},
   pages={2039--2047},
   year={2017}
-}
-
->@article{yang2019feature,
-  title={Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection},
-  author={Yang, Fan and Zhang, Lei and Yu, Sijia and Prokhorov, Danil and Mei, Xue and Ling, Haibin},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2019},
-  publisher={IEEE}
 }
 
 CFD: 
