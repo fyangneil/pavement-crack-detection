@@ -76,6 +76,7 @@ GAPs384:
   year={2019},
   publisher={IEEE}
 }
+
 >@inproceedings{eisenbach2017how,
   title={How to Get Pavement Distress Detection Ready for Deep Learning? A Systematic Approach.},
   author={Eisenbach, Markus and Stricker, Ronny and Seichter, Daniel and Amende, Karl and Debes, Klaus
